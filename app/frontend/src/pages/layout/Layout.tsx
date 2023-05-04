@@ -10,7 +10,7 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer}>
                     <Link to="/" className={styles.headerTitleContainer}>
-                        <h3 className={styles.headerTitle}>GPT + Enterprise data | Sample</h3>
+                        <h3 className={styles.headerTitle}>Yogamu/TerraMD</h3>
                     </Link>
                     <nav>
                         <ul className={styles.headerNavList}>
@@ -25,10 +25,10 @@ const Layout = () => {
                                 </NavLink>
                             </li>
                             <li className={styles.headerNavLeftMargin}>
-                                <a href="https://aka.ms/entgptsearch" target={"_blank"} title="Github repository link">
+                                <a href="https://www.yogamu.org" target={"_blank"} title="Yogamu Home">
                                     <img
                                         src={github}
-                                        alt="Github logo"
+                                        alt="Yogamu logo"
                                         aria-label="Link to github repository"
                                         width="20px"
                                         height="20px"
@@ -38,7 +38,7 @@ const Layout = () => {
                             </li>
                         </ul>
                     </nav>
-                    <h4 className={styles.headerRightText}>Azure OpenAI + Cognitive Search</h4>
+                    <h4 className={styles.headerRightText}>Yogamu/TerraMD Cognitive Search</h4>
                 </div>
             </header>
 
