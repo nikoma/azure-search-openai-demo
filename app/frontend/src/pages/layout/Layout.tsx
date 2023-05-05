@@ -26,19 +26,12 @@ const Layout = () => {
                             </li>
                             <li className={styles.headerNavLeftMargin}>
                                 <a href="https://www.yogamu.org" target={"_blank"} title="Yogamu Home">
-                                    <img
-                                        src={github}
-                                        alt="Yogamu logo"
-                                        aria-label="Link to github repository"
-                                        width="20px"
-                                        height="20px"
-                                        className={styles.githubLogo}
-                                    />
+                                    Yogamu Home
                                 </a>
                             </li>
                         </ul>
                     </nav>
-                    <h4 className={styles.headerRightText}>Yogamu/TerraMD Cognitive Search</h4>
+                    <h4 className={styles.headerRightText}>Yogamu/TerraMD Cognitive Search (Beta)</h4>
                 </div>
             </header>
 
